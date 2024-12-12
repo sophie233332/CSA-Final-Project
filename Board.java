@@ -22,25 +22,5 @@ public class Board extends JPanel implements ActionListener, KeyListener {
         g.drawString("Press W to begain the next catch ", 5, 100); 
     }
 
-    // @Override
-    // public void keyTyped(KeyEvent e) {}
     
-
-    // @Override
-    // public void keyPressed(KeyEvent e) {
-        
-    //     if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-    //         if (i > 0) {
-    //             i--; 
-    //         }
-    //     }
-    // }
-
-    // @Override
-    // public void keyReleased(KeyEvent e) {}
-
-    // @Override
-    // public void actionPerformed(ActionEvent e) {
-    //     repaint();
-    // }
 }

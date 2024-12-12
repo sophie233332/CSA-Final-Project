@@ -13,12 +13,12 @@ public class App {
         int H4 = 200;
         JFrame frame4 = new JFrame("TheEnd");
         frame4.setSize(W4, H4);
-        frame4.setLocation(540, 290); // Center on screen
+        frame4.setLocation(540, 290); 
         frame4.setResizable(false);
         frame4.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        Prize prize = new Prize();
-        frame4.add(prize);
+        END end = new END();
+        frame4.add(end);
 
 
         // board frame
@@ -35,7 +35,7 @@ public class App {
         frame3.add(board);
 
 
-        // Main Frame (Claw Machine)
+        // CLAW MACHINE
         int W1 = 370;
         int H1 = 400;
         JFrame frame = new JFrame("Claw Machine");
@@ -49,12 +49,12 @@ public class App {
 
         
 
-        // Secondary Frame (Title Page)
+        //Title
         int W2 = 260;
         int H2 = 260;
         JFrame frame2 = new JFrame("Title Page");
         frame2.setSize(W2, H2);
-        frame2.setLocation(540, 90); // Position the secondary window
+        frame2.setLocation(540, 90); 
         frame2.setResizable(false);
         frame2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
@@ -65,7 +65,7 @@ public class App {
         // Display title frame first
         frame2.setVisible(true);
 
-        // Add a listener to handle frame transitions
+        //title closed, two more pop out
         frame2.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
@@ -74,7 +74,7 @@ public class App {
         
             }
         });
-
+            // the end?
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {

@@ -5,8 +5,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyListener;
 import javax.swing.JPanel;
 
-
-public class Prize extends JPanel implements ActionListener, KeyListener {
+//the end
+public class END extends JPanel implements ActionListener, KeyListener {
     
     @Override
     public void paintComponent(Graphics g) {
